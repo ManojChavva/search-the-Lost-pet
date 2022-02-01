@@ -25,19 +25,8 @@ const loadAnimals = async () => {
 };
 
 
-
-function getAge(dateString)
-{
-    const now = new Date();
-    const birthDate = new Date(this.anon.bornAt.split('-')[0], this.anon.bornAt.split('-')[1], this.anon.bornAt.split('-')[2]);
-    const timeDiff = now.getTime() - birthdate.getTime();
-    this.age = Math.floor( timeDiff / (365 * 24 * 60 * 60 * 1000));
-  }
-
-
-
 /*
-
+function getAge(dateString)
     var today =  new Date();
     var b = today.toISOString();
     console.log(b);
@@ -54,8 +43,6 @@ function getAge(dateString)
   }
 
 */
-
-
 
 const displayAnimals = (animals) => {
     const htmlString = animals
