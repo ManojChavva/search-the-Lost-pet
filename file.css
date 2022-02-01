@@ -6,10 +6,7 @@ body {
 * {
     box-sizing: border-box;
 }
-h1 {
-    color: #eee;
-    margin-bottom: 30px;
-}
+
 .container {
     padding: 40px;
     margin: 0 auto;
