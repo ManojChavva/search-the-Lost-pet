@@ -25,7 +25,7 @@ const loadAnimals = async () => {
 };
 
 
-/*
+/* Tried age calculation--- thought to give the getAge at <p>Age = ${animal.bornAt=getAge}</p>
 function getAge(dateString)
     var today =  new Date();
     var b = today.toISOString();
